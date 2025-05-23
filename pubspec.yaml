@@ -1,0 +1,24 @@
+name: save_to_folder_ios
+description: "Open the native iOS Files app to choose a folder and save the file there."
+version: 1.0.4
+homepage: https://github.com/travelwithme232/save_to_folder_ios
+repository: https://github.com/travelwithme232/save_to_folder_ios
+issue_tracker: https://github.com/travelwithme232/save_to_folder_ios/issues
+
+environment:
+  sdk: ">=2.19.3 <4.0.0"
+  flutter: ">=2.5.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+flutter:
+  plugin:
+    platforms:
+      ios:
+        pluginClass: SaveToFolderIosPlugin
